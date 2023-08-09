@@ -88,7 +88,6 @@ int main( int argc, char *argv[])
     MSG msg;
 
     // code
-    std::cout << __LINE__ << std::endl;
     if( InitializeWindow( &g_hwnd) == false)
     {
         std::cerr << "InitializeWindow() Failed." << std::endl;
@@ -96,7 +95,6 @@ int main( int argc, char *argv[])
         return 1;
     }
 
-    std::cout << __LINE__ << std::endl;
 
     if( InitializeOpenGL( g_hwnd, &g_hdc, &g_hrc) == false)
     {
@@ -105,7 +103,6 @@ int main( int argc, char *argv[])
         return 1;
     }
 
-    std::cout << __LINE__ << std::endl;
 
     if( InitializeOpenCL() == false)
     {
@@ -114,7 +111,6 @@ int main( int argc, char *argv[])
         return 1;
     }
 
-    std::cout << __LINE__ << std::endl;
 
     if( Initialize() == false)
     {
@@ -123,7 +119,6 @@ int main( int argc, char *argv[])
         return 1;
     }
 
-    std::cout << __LINE__ << std::endl;
 
     // Game Loop
     while( b_done == false)
@@ -267,7 +262,6 @@ bool InitializeWindow( HWND *hwnd)
         return false;
     }
 
-    std::cout << __LINE__ << std::endl;
 
     wndclass.cbSize = sizeof( WNDCLASSEX);
     wndclass.style = CS_HREDRAW | CS_VREDRAW | CS_OWNDC;
@@ -282,7 +276,6 @@ bool InitializeWindow( HWND *hwnd)
     wndclass.lpszMenuName = nullptr;
     wndclass.lpfnWndProc = WndProc;
 
-    std::cout << __LINE__ << std::endl;
 
     if( !RegisterClassEx( &wndclass))
     {
@@ -290,7 +283,6 @@ bool InitializeWindow( HWND *hwnd)
         return false;
     }
 
-    std::cout << __LINE__ << std::endl;
 
     *hwnd = CreateWindowEx(
                 WS_EX_APPWINDOW,
@@ -300,16 +292,13 @@ bool InitializeWindow( HWND *hwnd)
                 nullptr, nullptr, hInstance, nullptr
     );
 
-    std::cout << __LINE__ << std::endl;
 
     SetForegroundWindow( *hwnd);
     SetFocus( *hwnd);
 
-    std::cout << __LINE__ << std::endl;
 
     ShowWindow( *hwnd, SW_NORMAL);
 
-    std::cout << __LINE__ << std::endl;
     return true;
 }
 

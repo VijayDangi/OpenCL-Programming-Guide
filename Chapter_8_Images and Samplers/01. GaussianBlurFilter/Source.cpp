@@ -61,7 +61,7 @@ int main( int argc, char **argv)
     // code
     if( argc < 3)
     {
-        std::cout << "usage: %s --i input_file_name --platform n --useMapBuffer --o output_file_name" << std::endl;
+        std::cout << "usage: " << argv[0] << " --i input_file_name --platform n --useMapBuffer --o output_file_name" << std::endl;
 
         return 0;
     }

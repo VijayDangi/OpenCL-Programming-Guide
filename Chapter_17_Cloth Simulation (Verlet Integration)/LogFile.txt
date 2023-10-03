@@ -1,0 +1,30 @@
+Log Started...
+[Grid.cpp\InitializeGrid() : 45]: Grid Uniform "MVPMatrix" : 2
+[Grid.cpp\InitializeGrid() : 46]: Grid Uniform "MVMatrix" : 1
+[Grid.cpp\InitializeGrid() : 47]: Grid Uniform "MaxDistance" : 3
+[Grid.cpp\InitializeGrid() : 48]: Grid Uniform "Color" : 0
+[OGL.cpp\Initialize() : 452]: 
+[OpenCLUtil.cpp\OpenCLUtil::CreateContext() : 111]: OpenCL Platform Vender = NVIDIA Corporation
+[OGL.cpp\Initialize() : 460]: 
+[OGL.cpp\Initialize() : 468]: 
+[Cloth_CL.cpp\ClothSimulation_OpenCL::CreateCloth() : 208]: 
+[Cloth_CL.cpp\ClothSimulation_OpenCL::CreateCloth() : 243]: 
+[Cloth_CL.cpp\ClothSimulation_OpenCL::CreateCloth() : 270]: 
+[Cloth_CL.cpp\ClothSimulation_OpenCL::CreateCloth() : 276]: 
+[Cloth_CL.cpp\ClothSimulation_OpenCL::CreateCloth() : 292]: 
+[Cloth_CL.cpp\ClothSimulation_OpenCL::CreateCloth() : 434]: 
+[Cloth_CL.cpp\ClothSimulation_OpenCL::CreateCloth() : 473]: 
+[Cloth_CL.cpp\ClothSimulation_OpenCL::CreateCloth() : 496]: 
+[Cloth_CL.cpp\ClothSimulation_OpenCL::CreateCloth() : 517]: 
+[Cloth_CL.cpp\ClothSimulation_OpenCL::CreateCloth() : 538]: 
+[Cloth_CL.cpp\ClothSimulation_OpenCL::CreateCloth() : 564]: 
+[Cloth_CL.cpp\ClothSimulation_OpenCL::CreateCloth() : 579]: 
+[OGL.cpp\Initialize() : 477]: 
+[OGL.cpp\Initialize() : 498]: u_model_matrix:: 0
+[OGL.cpp\Initialize() : 499]: u_view_matrix:: 3
+[OGL.cpp\Initialize() : 500]: u_projection_matrix:: 1
+[OGL.cpp\Initialize() : 501]: u_texture:: 2
+[OGL.cpp\Initialize() : 503]: 
+[OGL.cpp\Initialize() : 508]: 
+[Cloth_CL.cpp\ClothSimulation_OpenCL::Uninitialize() : 763]: 
+[OGL.cpp\UnInitialize() : 948]: Log Ended...

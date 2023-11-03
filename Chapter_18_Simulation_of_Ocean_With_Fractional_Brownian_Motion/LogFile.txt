@@ -1,0 +1,111 @@
+[source\Main.cpp\WinMain() : 131]: Log Started...
+
+[source\system\GLView.cpp\PrintPixelFormatDescriptor() : 74]: PIXELFORMATDESCRIPTOR
+nSize: 0
+nVersion: 0
+dwFlags: 0
+iPixelType: 0
+cColorBits: 0
+cRedBits: 0
+cRedShift: 0
+cGreenBits: 0
+cGreenShift: 0
+cBlueBits: 0
+cBlueShift: 0
+cAlphaBits: 0
+cAlphaShift: 0
+cAccumBits: 0
+cAccumRedBits: 0
+cAccumGreenBits: 0
+cAccumBlueBits: 0
+cAccumAlphaBits: 0
+cDepthBits: 0
+cStencilBits: 0
+cAuxBuffers: 0
+iLayerType: 0
+bReserved: 0
+dwLayerMask: 0
+dwVisibleMask: 0
+dwDamageMask: 0
+
+[source\system\GLView.cpp\GLView::create_dummy_context() : 160]: Created OpenGL dummy context.
+[source\system\GLView.cpp\PrintPixelFormatDescriptor() : 74]: PIXELFORMATDESCRIPTOR
+nSize: 40
+nVersion: 1
+dwFlags: 33317
+iPixelType: 0
+cColorBits: 32
+cRedBits: 8
+cRedShift: 16
+cGreenBits: 8
+cGreenShift: 8
+cBlueBits: 8
+cBlueShift: 0
+cAlphaBits: 0
+cAlphaShift: 0
+cAccumBits: 64
+cAccumRedBits: 16
+cAccumGreenBits: 16
+cAccumBlueBits: 16
+cAccumAlphaBits: 16
+cDepthBits: 24
+cStencilBits: 8
+cAuxBuffers: 4
+iLayerType: 0
+bReserved: 0
+dwLayerMask: 0
+dwVisibleMask: 0
+dwDamageMask: 0
+
+[source\system\GLView.cpp\GLView::set_opengl_context() : 258]: Setting non-debugging OpenGL context.
+[source\Main.cpp\Initialize() : 463]: GL_DOUBLEBUFFER: 1
+[source\utility\OpenCLUtil.cpp\OpenCLUtil::CreateContext() : 113]: OpenCL Platform Vender = NVIDIA Corporation
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 370]: Attrib Name: "vPosition", type: "GL_FLOAT_VEC4", index: "0"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "Color", type: "GL_FLOAT_VEC4", index: "0"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "MVMatrix", type: "GL_FLOAT_MAT4", index: "1"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "MVPMatrix", type: "GL_FLOAT_MAT4", index: "2"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "MaxDistance", type: "GL_FLOAT", index: "3"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 370]: Attrib Name: "a_normal", type: "GL_FLOAT_VEC3", index: "2"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 370]: Attrib Name: "a_tex_coord", type: "GL_FLOAT_VEC2", index: "3"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 370]: Attrib Name: "a_world_pos", type: "GL_FLOAT_VEC3", index: "0"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_ambient", type: "GL_FLOAT_VEC3", index: "0"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_camera_position", type: "GL_FLOAT_VEC3", index: "1"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_diffuse_reflectance", type: "GL_FLOAT_VEC3", index: "2"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_foam_texture", type: "UNKNOWN", index: "3"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_fresnel_color", type: "GL_FLOAT_VEC3", index: "4"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_fresnel_parameter", type: "GL_FLOAT_VEC4", index: "5"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_light_color", type: "GL_FLOAT_VEC3", index: "6"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_normal_strength", type: "GL_FLOAT", index: "7"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_projection", type: "GL_FLOAT_MAT4", index: "8"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_shininess", type: "GL_FLOAT", index: "9"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_sky_map", type: "UNKNOWN", index: "10"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_specular_normal_strength", type: "GL_FLOAT", index: "11"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_specular_reflectance", type: "GL_FLOAT_VEC3", index: "12"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_sun_color", type: "GL_FLOAT_VEC3", index: "13"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_sun_direction", type: "GL_FLOAT_VEC3", index: "14"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_tip_attenuation", type: "GL_FLOAT", index: "15"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_tip_color", type: "GL_FLOAT_VEC3", index: "16"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_use_environment_map", type: "GL_INT", index: "17"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_view", type: "GL_FLOAT_MAT4", index: "18"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_camera_position", type: "GL_FLOAT_VEC3", index: "0"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_color_buffer", type: "UNKNOWN", index: "1"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_depth_buffer", type: "UNKNOWN", index: "2"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_far_plane", type: "GL_FLOAT", index: "3"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_fog_attenuation", type: "GL_FLOAT", index: "4"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_fog_color", type: "GL_FLOAT_VEC3", index: "5"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_fog_density", type: "GL_FLOAT", index: "6"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_fog_height", type: "GL_FLOAT", index: "7"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_fog_offset", type: "GL_FLOAT", index: "8"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_near_plane", type: "GL_FLOAT", index: "9"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_projection", type: "GL_FLOAT_MAT4", index: "10"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_sky_box_direction", type: "GL_FLOAT_VEC3", index: "11"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_sky_box_speed", type: "GL_FLOAT", index: "12"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_sky_map", type: "UNKNOWN", index: "13"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_sun_color", type: "GL_FLOAT_VEC3", index: "14"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_sun_direction", type: "GL_FLOAT_VEC3", index: "15"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_sun_exponetial", type: "GL_FLOAT", index: "16"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_time", type: "GL_FLOAT", index: "17"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_view", type: "GL_FLOAT_MAT4", index: "18"
+[source\system\GLView.cpp\GLView::~GLView() : 101]: 
+[source\system\MainWindow.cpp\MainWindow::~MainWindow() : 22]: 
+[source\Main.cpp\UnInitialize() : 1076]: Log Ended...

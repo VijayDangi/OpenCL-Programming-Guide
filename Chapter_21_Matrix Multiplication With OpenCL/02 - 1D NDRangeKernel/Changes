@@ -1,0 +1,5 @@
+Change 2Dimension NDRanger Kernel to 1Dimension
+
+Instead of using Millions of Work-item, give some extra work in work-items
+
+Kernel code is updated

@@ -1,0 +1,10 @@
+Most processors have sufficient bandwidth into the ALU to keep this computation running near peak performance, but only if the data movement
+costs can be hidden. Hence, the essence of optimizing matrix multiplication is to minimize data movement.
+
+All 3 matrices are in global memory, this means computation streams rows and columns through the memory 
+hierarchy ( global to private) repeatedly for each dot product.
+
+A float array of size 1000 is defined. Because this occurs inside the
+kernel, the memory is allocated in the private memory of the processing
+element that will run the kernel. Then, prior to computing the dot products for the elements of the C matrix, the required row of the A matrix
+is copied from global memory into private memory.

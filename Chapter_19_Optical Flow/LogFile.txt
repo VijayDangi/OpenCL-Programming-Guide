@@ -1,0 +1,69 @@
+[source\Main.cpp\WinMain() : 131]: Log Started...
+
+[source\Main.cpp\WinMain() : 150]: ESCAPI Initialize()
+[source\system\GLView.cpp\PrintPixelFormatDescriptor() : 74]: PIXELFORMATDESCRIPTOR
+nSize: 0
+nVersion: 0
+dwFlags: 0
+iPixelType: 0
+cColorBits: 0
+cRedBits: 0
+cRedShift: 0
+cGreenBits: 0
+cGreenShift: 0
+cBlueBits: 0
+cBlueShift: 0
+cAlphaBits: 0
+cAlphaShift: 0
+cAccumBits: 0
+cAccumRedBits: 0
+cAccumGreenBits: 0
+cAccumBlueBits: 0
+cAccumAlphaBits: 0
+cDepthBits: 0
+cStencilBits: 0
+cAuxBuffers: 0
+iLayerType: 0
+bReserved: 0
+dwLayerMask: 0
+dwVisibleMask: 0
+dwDamageMask: 0
+
+[source\system\GLView.cpp\GLView::create_dummy_context() : 160]: Created OpenGL dummy context.
+[source\system\GLView.cpp\PrintPixelFormatDescriptor() : 74]: PIXELFORMATDESCRIPTOR
+nSize: 40
+nVersion: 1
+dwFlags: 33317
+iPixelType: 0
+cColorBits: 32
+cRedBits: 8
+cRedShift: 16
+cGreenBits: 8
+cGreenShift: 8
+cBlueBits: 8
+cBlueShift: 0
+cAlphaBits: 0
+cAlphaShift: 0
+cAccumBits: 64
+cAccumRedBits: 16
+cAccumGreenBits: 16
+cAccumBlueBits: 16
+cAccumAlphaBits: 16
+cDepthBits: 24
+cStencilBits: 8
+cAuxBuffers: 4
+iLayerType: 0
+bReserved: 0
+dwLayerMask: 0
+dwVisibleMask: 0
+dwDamageMask: 0
+
+[source\system\GLView.cpp\GLView::set_opengl_context() : 258]: Setting non-debugging OpenGL context.
+[source\Main.cpp\Initialize() : 430]: GL_DOUBLEBUFFER: 1
+[source\utility\OpenCLUtil.cpp\OpenCLUtil::CreateContext() : 113]: OpenCL Platform Vender = NVIDIA Corporation
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_flip_image", type: "GL_INT", index: "0"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_texture_buffer", type: "UNKNOWN", index: "1"
+[source\framework\ShaderProgram.cpp\ShaderProgram::Build() : 387]: Uniform Name: "u_use_vector_image", type: "GL_INT", index: "2"
+[source\system\GLView.cpp\GLView::~GLView() : 101]: 
+[source\system\MainWindow.cpp\MainWindow::~MainWindow() : 22]: 
+[source\Main.cpp\UnInitialize() : 916]: Log Ended...
